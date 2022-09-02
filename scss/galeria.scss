@@ -5,3 +5,13 @@
 .zoom:hover {
     transform: scale(1.2); 
 }
+
+.bg-galeria {   background: { image:url(../assets/img/fondogranja.png) ;
+                repeat: no-repeat;
+                size: cover;
+                attachment: fixed ;
+             }
+             h1{ color: rgb(255, 211, 101);}
+            
+        }        
+.bg-galeria-oscuro {background-color: rgba(0,0, 0, .4);}   

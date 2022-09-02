@@ -40,3 +40,14 @@ footer {
 
 .zoom:hover {
   transform: scale(1.2); }
+
+.bg-galeria {
+  background-image: url(../assets/img/fondogranja.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .bg-galeria h1 {
+    color: #ffd365; }
+
+.bg-galeria-oscuro {
+  background-color: rgba(0, 0, 0, 0.4); }
