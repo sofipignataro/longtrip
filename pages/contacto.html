@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<link rel="icon" href="../assets/favicon/favicon.ico" sizes="16x16">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<title>Galería</title>
+</head>
+<body >
+	<header class=" pb-3 p-lg-0">				
+		<nav class="navbar navbar-expand-lg  p-0 ">
+	  		<div class="container-fluid d-lg-flex flex-lg-column  align-items-center" >	
+		  		<a class="navbar-brand p-0 m-0 " href="../index.html" > <img src="../assets/img/logo-fondo.png"  alt="logo"> </a>
+			   	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			      		<span class="navbar-toggler-icon"></span>
+			    </button>
+			    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+				<div class="navbar-nav">
+				       <a class="nav-link ms-2 pt-1 " aria-current="page" href="../index.html">Inicio</a>
+				       <a class="nav-link ms-2 pt-1" href="servicios.html">Servicios</a>
+				       <a class="nav-link ms-2 pt-1" href="nosotros.html">Nosotros</a>
+				       <a class="nav-link ms-2 pt-1" href="galeria.html">Galería</a>
+				       <a class="nav-link ms-2 pt-1" href="#">Contacto</a> 
+				</div>
+		    	</div>
+	  		</div>
+		</nav>
+	</header>
+	<main class="main-contacto mb-3" >
+		<form class="container formulario " >
+				<h1 class="text-uppercase text-center h2 m-2 formulario-titulo "> escribinos tu consulta</h1>
+		
+				<div class="row d-lg-flex flex-lg-column justify-content-center align-items-center ">
+						<div class="col-lg-6">
+							    <label for="nombre" class="form-label fw-semibold  text-capitalize">nombre* </label>
+							    <input type="text" class="form-control form-control-sm" id="nombre" required >
+						</div>
+						<div class="col-lg-6">
+							    <label for="apellido" class="form-label fw-semibold text-capitalize">apellido*</label>
+							    <input type="text" class="form-control form-control-sm" id="apellido" >
+						</div>
+						<div class="col-lg-6">
+							    <label for="email" class="form-label fw-semibold text-capitalize">e-mail*</label>
+							    <input type="email" class="form-control form-control-sm" id="email" placeholder="tunombre@tucorreo.com" required>
+						</div>
+						<div class="col-lg-6">
+							    <label for="telefono" class="form-label fw-semibold text-capitalize">teléfono</label>
+							    <input type="tel" class="form-control form-control-sm" id="telefono" placeholder="(opcional)">
+					 	</div>
+						<div class="col-lg-6">
+							    <label for="mensaje" class="form-label fw-semibold text-capitalize">mensaje</label>
+							    <textarea id="mensaje" class="form-control form-control-sm" placeholder="escribe aquí tu mensaje">  </textarea> 
+						</div>
+						<div class="col-lg-2 col-md-2 col-4">
+							    <button type="submit" class="btn  btn-outline-warning  m-4 fw-semibold">enviar</button>
+						</div>
+				</div>	  
+		</form>
+	</main>
+	<section class="container-fluid border-top p-4 my-3 section-contacto">
+				<div class="row">
+						<div class="col-12">
+								<h2 class="text-center text-uppercase"> ¡veni a conocernos!</h2>
+						</div>
+				</div>		
+				<div class="row ">
+						<div class="col-12 col-lg-6 d-flex  justify-content-center">		
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1946.9673201405442!2d-58.34364694005625!3d-34.846283873912846!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32ba7c7baf7cd%3A0x223f430973207c94!2sGranja%20Educativa%20Don%20Mario!5e0!3m2!1ses-419!2sar!4v1658761798613!5m2!1ses-419!2sar" width="75%" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>		
+						</div>
+						<div class="col-12 col-lg-6 mt-5 text-center  ">
+								<p> <i class="fa-solid fa-location-dot"></i> Francisco Narciso de Laprida 2192 <br>Ministro Rivadavia, Buenos Aires  <br> (DENTRO DEL PREDIO DE LA GRANJA "DON MARIO") </p>		
+						</div>	
+				</div>
+	</section>
+	<footer class="container-fluid border-top  text-center">
+				<div class="row d-lg-flex justify-content-evenly">
+						<div class=" col-sm  ">
+								<h5 class="text-uppercase fw-semibold"> ubicacion</h5>
+								<p> <a href="https://goo.gl/maps/meTkCqbmCDZrnhDw6" target="_blank">  <i class="bi bi-geo-alt"></i> Francisco Narciso de Laprida 2192 <br> Ministro Rivadavia CP1852 <br> Dentro del predio " Granja Don Mario"</a> </p> 				
+						</div>
+						<div class=" col-sm ">
+								<h5 class="text-uppercase fw-semibold"> contactanos </h5>
+								<p><a href="https://wa.me/+5491127766065?text=¡Hola!+Me+gustaría+más+información" target="_blank"> <i class="bi bi-whatsapp"></i> +549 1127766065 </a></p>
+								<p><a href="mailto:longtrip.experiencias@gmail.com" target="_blank"> <i class="bi bi-envelope"></i>longtrip.experiencias@gmail.com </a></p>  	
+						</div>
+						<div class="col-sm">
+								<h5 class="text-uppercase fw-semibold"> nuestras redes</h5>
+						<div>
+								<a href="https://www.facebook.com/longtrip.ok" target="_blank"> <i class="bi bi-facebook  m-3  icon-fb"></i> </a> 
+								<a href="https://www.instagram.com/longtrip.ok/" target="_blank"><i class="bi bi-instagram m-3   icon-in"></i> </a>	
+						</div>		
+				</div>
+			</div>	
+			<div class="row">
+					<div class="col text-lg-end m-0">
+						<small>
+								<p> ©2022 by <b>Sofía Pignataro</b>. All rights reserved </p>
+						</small>		
+					</div>			           		
+			</div>
+	</footer>	
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
