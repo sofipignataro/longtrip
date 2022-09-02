@@ -1,0 +1,42 @@
+header {
+  background-color: #019267; }
+  header .nav-link {
+    color: white;
+    font-size: 1rem; }
+    header .nav-link:hover {
+      color: #019267;
+      background-color: white; }
+
+footer {
+  background-color: #019267; }
+  footer h5 {
+    color: white; }
+  footer a {
+    color: white;
+    font-size: .8rem;
+    text-decoration: none; }
+
+.main-contacto {
+  background-image: url(../assets/img/fondogranja.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .main-contacto form {
+    background-color: rgba(0, 0, 0, 0.3); }
+    .main-contacto form h1, .main-contacto form label {
+      color: #ffd365; }
+
+.section-contacto {
+  background-color: #ffd365; }
+
+.bg-claro {
+  background-color: #fdffa9; }
+
+.bg-oscuro {
+  background-color: #ffd365; }
+
+.zoom {
+  transition: transform .2s; }
+
+.zoom:hover {
+  transform: scale(1.2); }
