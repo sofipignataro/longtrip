@@ -8,7 +8,8 @@ header {
       background-color: white; }
 
 footer {
-  background-color: #019267; }
+  background-color: #019267;
+  font-family: 'Raleway', sans-serif; }
   footer h5 {
     color: white; }
   footer a {
@@ -51,3 +52,6 @@ footer {
 
 .bg-galeria-oscuro {
   background-color: rgba(0, 0, 0, 0.4); }
+
+#carouselExampleFade img {
+  filter: brightness(0.8); }
