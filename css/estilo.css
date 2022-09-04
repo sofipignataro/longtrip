@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Raleway:wght@500&display=swap");
 header {
   background-color: #019267;
   font-family: 'Raleway', sans-serif;
@@ -11,31 +10,18 @@ header {
       color: #019267;
       background-color: white; }
 
-footer {
-  background-color: #019267;
-  font-family: 'Raleway', sans-serif; }
-  footer h6 {
-    color: white; }
-  footer a {
-    color: white;
-    font-size: 0.9rem;
-    text-decoration: none; }
-
 #carouselExampleFade img {
   filter: brightness(0.7); }
 
-.main-contacto {
-  background-image: url(../assets/img/fondogranja.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed; }
-  .main-contacto form {
-    background-color: rgba(0, 0, 0, 0.3); }
-    .main-contacto form h1, .main-contacto form label {
-      color: #ffd365; }
+#carouselExampleFade h1 {
+  font-size: 3rem;
+  font-family: 'Amatic SC', cursive;
+  color: white; }
 
-.section-contacto {
-  background-color: #ffd365; }
+.card {
+  max-width: 250px; }
+  .card img {
+    filter: brightness(0.7); }
 
 .bg-claro {
   background-color: #fdffa9; }
@@ -64,5 +50,25 @@ footer {
 .bg-galeria-oscuro {
   background-color: rgba(0, 0, 0, 0.4); }
 
-#carouselExampleFade img {
-  filter: brightness(0.7); }
+.main-contacto {
+  background-image: url(../assets/img/fondogranja.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .main-contacto form {
+    background-color: rgba(0, 0, 0, 0.3); }
+    .main-contacto form h1, .main-contacto form label {
+      color: #ffd365; }
+
+.section-contacto {
+  background-color: #ffd365; }
+
+footer {
+  background-color: #019267;
+  font-family: 'Raleway', sans-serif; }
+  footer h6 {
+    color: white; }
+  footer a {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none; }
