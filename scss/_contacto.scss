@@ -4,12 +4,12 @@
 				size: cover;
 				attachment: fixed ;}
 			form { background-color: rgba(0,0, 0, .3);
-				h1, label {color: rgb(255, 211, 101);
+				h1, label {color: $bgOscuro;
 					
 			}
 		} 			
 }
-.section-contacto {background-color:  rgb(255, 211, 101);
+.section-contacto {background-color:  $bgOscuro;
 
 				
 }

@@ -1,10 +1,11 @@
 @charset 'utf-8';
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Raleway:wght@500&display=swap');
-@import "header.scss";
-@import "index.scss";
-@import "servicios.scss";
-@import "galeria.scss";
-@import "contacto.scss";
-@import "footer.scss";
+@import "_variables.scss"; 
+@import "_header.scss";
+@import "_index.scss";
+@import "_servicios.scss";
+@import "_galeria.scss";
+@import "_contacto.scss";
+@import "_footer.scss";
 
 
