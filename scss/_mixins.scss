@@ -1,1 +1,21 @@
-// mixin para iconos de rrss footer
+// mixin para los h1
+
+@mixin h1Style ($color, $fSize, $fFamily) {
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	color: $color;
+	font-size: $fSize;
+	font-family: $fFamily;
+}
+
+// estilo de todos los h1 del sitio
+h1 { @include h1Style ($colorTextSecundary,2.5rem,Raleway)}
+
+// estilo del h1 INDEX
+.carousel-item {
+	h1 { @include h1Style ($colorTextPrimary,65px,Amatic SC)}
+}
+
+

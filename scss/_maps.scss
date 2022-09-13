@@ -1,0 +1,11 @@
+// mapas colores de fondo
+$bgColors: (
+        bgGreen: $bgPrimary,
+        bgDarkOrange:  $bgSecundary,
+        bgLightOrange: $bgSecundaryLight
+); 
+
+
+footer, header {
+  background-color: map-get($bgColors, bgGreen)
+	}

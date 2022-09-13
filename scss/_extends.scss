@@ -1,13 +1,6 @@
-// // extend para el formato de los h1
+.nav-link { color: $colorTextPrimary; text-transform: uppercase; font-family: Raleway; font-size: 1rem; }
 
-h1 {color: $colorTextSecundary;
-		font-size: 2.5rem;
-		text-transform: uppercase ; 
-		text-align: center;
-		letter-spacing: 3px;}
-
-.title-index { @extend h1;
- 		font-size: 70px;
- 		font-family:'Amatic SC', cursive;
- 		padding: 7rem; 
- 		color: $colorTextPrimary;}
+footer { @extend .nav-link; 
+	a {text-decoration: none;  font-size: 0.9rem; text-transform: none; color: $colorTextPrimary; }
+		 }
+		 
