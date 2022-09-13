@@ -1,0 +1,9 @@
+// extend para el formato de los h1
+
+h1 {color: $colorTextSecundary;
+		font-size: 2.5rem;
+		text-transform: uppercase ; 
+		text-align: center;
+		letter-spacing: 3px;}
+
+.title-index { @extend h1; font-size: 70px; font-family:'Amatic SC', cursive; padding: 7rem; color: $colorTextPrimary;}

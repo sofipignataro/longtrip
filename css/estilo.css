@@ -1,4 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Raleway:wght@500&display=swap");
+h1, .title-index {
+  color: #efa229;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 3px; }
+
+.title-index {
+  font-size: 70px;
+  font-family: 'Amatic SC', cursive;
+  padding: 7rem;
+  color: #f3f3f3; }
+
 header {
   background-color: #1a4d2e;
   font-family: 'Raleway', sans-serif;
@@ -12,11 +25,6 @@ header {
 
 #carouselExampleFade img {
   filter: brightness(0.7); }
-
-#carouselExampleFade h1 {
-  font-size: 3rem;
-  font-family: 'Amatic SC', cursive;
-  color: #f3f3f3; }
 
 .card {
   max-width: 250px;
@@ -45,8 +53,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed; }
-  .bg-galeria h1 {
-    color: #efa229; }
 
 .bg-galeria-oscuro {
   background-color: rgba(0, 0, 0, 0.4); }
@@ -58,7 +64,7 @@ header {
   background-attachment: fixed; }
   .main-contacto form {
     background-color: rgba(0, 0, 0, 0.3); }
-    .main-contacto form h1, .main-contacto form label {
+    .main-contacto form label {
       color: #efa229; }
 
 .section-contacto {
