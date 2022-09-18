@@ -2,7 +2,7 @@
 
 header { background-color: $bgPrimary ;
 
-        .nav-link { @include fontStyle ( $colorTextPrimary, 1rem, Raleway,uppercase, 0px)
+        .nav-link { @include fontStyle ( $colorTextPrimary, 1rem,uppercase)
 
         	&:hover { color:$colorTextSecundary; font-weight:bold;}}
         		}
@@ -12,5 +12,9 @@ footer {@extend header;
 		h6 { @extend .nav-link;
 				&:hover {color: $colorTextPrimary} } 
 
-		a {@include fontStyle ($colorTextPrimary, .9rem,Raleway, none, 0px)}		
+		a {@include fontStyle ($colorTextPrimary, .9rem, none)}
+
+
+		small {color: $colorTextBlack;}		
 			}
+

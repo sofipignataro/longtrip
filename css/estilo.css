@@ -1,21 +1,44 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Raleway:wght@500&display=swap");
 h1 {
   text-decoration: none;
+  text-transform: uppercase;
   text-align: center;
+  letter-spacing: 1px;
   color: #efa229;
   font-size: 2.5rem;
-  font-family: Raleway;
-  text-transform: uppercase;
-  letter-spacing: 3px; }
+  font-family: Raleway; }
 
 .bodyIndex h1, .bodyIndex h3 {
   text-decoration: none;
+  text-transform: uppercase;
   text-align: center;
+  letter-spacing: 1px;
   color: #f3f3f3;
   font-size: 65px;
-  font-family: Amatic SC;
-  text-transform: uppercase;
-  letter-spacing: 3px; }
+  font-family: Amatic SC; }
+
+.bodyIndex #carouselExampleFade img {
+  filter: brightness(0.7); }
+
+.bodyIndex .btn:hover {
+  background-color: #f3b24a;
+  color: #f3f3f3; }
+
+.bodyIndex section {
+  background-color: #f3b24a; }
+  .bodyIndex section h2 {
+    font-family: Raleway;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: #333333;
+    font-size: 1.5rem;
+    text-transform: none; }
+  .bodyIndex section .card {
+    max-width: 250px;
+    transition: 2s; }
+    .bodyIndex section .card img {
+      filter: brightness(0.6); }
 
 @media only screen and (max-width: 768px) {
   .bodyIndex h1, .bodyIndex h3 {
@@ -24,13 +47,13 @@ h1 {
 header, footer {
   background-color: #1a4d2e; }
   header .nav-link, footer .nav-link, header footer h6, footer header h6, footer h6 {
+    font-family: Raleway;
     text-decoration: none;
+    text-transform: uppercase;
     text-align: center;
     color: #f3f3f3;
     font-size: 1rem;
-    font-family: Raleway;
-    text-transform: uppercase;
-    letter-spacing: 0px; }
+    text-transform: uppercase; }
     header .nav-link:hover, footer .nav-link:hover, header footer h6:hover, footer header h6:hover, footer h6:hover {
       color: #efa229;
       font-weight: bold; }
@@ -39,10 +62,13 @@ footer h6:hover {
   color: #f3f3f3; }
 
 footer a {
+  font-family: Raleway;
   text-decoration: none;
+  text-transform: uppercase;
   text-align: center;
   color: #f3f3f3;
   font-size: 0.9rem;
-  font-family: Raleway;
-  text-transform: none;
-  letter-spacing: 0px; }
+  text-transform: none; }
+
+footer small {
+  color: #333333; }

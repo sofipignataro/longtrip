@@ -2,7 +2,21 @@ $vista: mobile;
 
 .bodyIndex {
 
-	h1, h3 { @include fontStyle ($colorTextPrimary,$fSizeIndex,Amatic SC,uppercase, 3px)}
+		h1, h3 { @include h1Style ($colorTextPrimary,$fSizeIndex,Amatic SC)}
+
+		#carouselExampleFade {img {filter:brightness(.7)}} 
+
+		.btn { &:hover { background-color: $bgSecundaryLight; color: $colorTextPrimary}}
+
+		section {background-color: $bgSecundaryLight; 
+				h2 { @include fontStyle ($colorTextBlack, 1.5rem, none)}
+
+		.card { max-width:250px; transition: 2s;
+
+            img {filter:brightness(.6);}}
+
+			
+		}
 
 @if $vista == mobile {
 	@media only screen and (max-width: 768px) {

@@ -1,19 +1,28 @@
 // mixin para los h1
 
-@mixin fontStyle ($color, $fSize, $fFamily,$t-transform, $lSpacing) {
+@mixin h1Style ($color, $fSize, $fFamily) {
 	text-decoration: none;
+	text-transform: uppercase;
 	text-align: center;
+	letter-spacing: 1px;
 	color: $color;
 	font-size: $fSize;
 	font-family: $fFamily;
-	text-transform: $t-transform;
-	letter-spacing: $lSpacing;
 }
 
 // estilo de todos los h1 del sitio
-h1 { @include fontStyle ($colorTextSecundary,2.5rem,Raleway,uppercase, 3px)}
+h1 { @include h1Style ($colorTextSecundary, 2.5rem,Raleway)}
 
+// mixin para los estilos de fuente de todo el sitio 
+@mixin fontStyle ($color,$fSize, $tTransform) {
 
-	
+	font-family: Raleway;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	color: $color;
+	font-size: $fSize;
+	text-transform: $tTransform;
 
+}
 
