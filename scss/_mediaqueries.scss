@@ -1,0 +1,14 @@
+$vista: mobile;
+
+.bodyIndex {
+
+	h1, h3 { @include fontStyle ($colorTextPrimary,$fSizeIndex,Amatic SC,uppercase, 3px)}
+
+@if $vista == mobile {
+	@media only screen and (max-width: 768px) {
+	    h1,h3 {font-size: $fSizeIndex/2;}
+
+	}
+	
+}
+}
