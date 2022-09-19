@@ -1,5 +1,5 @@
 $vista: mobile;
-
+ // ESTILOS INDEX
 .bodyIndex {
 
 		h1, h3 { @include h1Style ($colorTextPrimary,$fSizeIndex,Amatic SC)}
@@ -14,13 +14,13 @@ $vista: mobile;
 		.card { max-width:250px; transition: 2s;
 
             img {filter:brightness(.6);}}
-
-			
+		
 		}
 
 @if $vista == mobile {
 	@media only screen and (max-width: 768px) {
 	    h1,h3 {font-size: $fSizeIndex/2;}
+	   	section { h2 {font-size: 1rem;}}
 
 	}
 	

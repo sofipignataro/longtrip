@@ -29,7 +29,6 @@ h1 {
   .bodyIndex section h2 {
     font-family: Raleway;
     text-decoration: none;
-    text-transform: uppercase;
     text-align: center;
     color: #333333;
     font-size: 1.5rem;
@@ -42,14 +41,15 @@ h1 {
 
 @media only screen and (max-width: 768px) {
   .bodyIndex h1, .bodyIndex h3 {
-    font-size: 32.5px; } }
+    font-size: 32.5px; }
+  .bodyIndex section h2 {
+    font-size: 1rem; } }
 
 header, footer {
   background-color: #1a4d2e; }
   header .nav-link, footer .nav-link, header footer h6, footer header h6, footer h6 {
     font-family: Raleway;
     text-decoration: none;
-    text-transform: uppercase;
     text-align: center;
     color: #f3f3f3;
     font-size: 1rem;
@@ -64,11 +64,53 @@ footer h6:hover {
 footer a {
   font-family: Raleway;
   text-decoration: none;
-  text-transform: uppercase;
   text-align: center;
   color: #f3f3f3;
   font-size: 0.9rem;
   text-transform: none; }
 
 footer small {
-  color: #333333; }
+  color: #f3f3f3; }
+
+.title {
+  background-color: #1a4d2e;
+  height: 10rem;
+  padding-top: 5rem; }
+
+.bodyNosotros .title {
+  background-color: #1a4d2e;
+  height: 10rem;
+  padding-top: 5rem; }
+
+.bodyNosotros main p {
+  font-family: Raleway;
+  text-decoration: none;
+  text-align: center;
+  color: #333333;
+  font-size: 1.2rem;
+  text-transform: none; }
+
+.zoom {
+  transition: transform .2s; }
+
+.zoom:hover {
+  transform: scale(1.2); }
+
+.bg-galeria {
+  background-image: url(../assets/img/fondogranja.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+.bg-galeria-oscuro {
+  background-color: rgba(0, 0, 0, 0.4); }
+
+.main-contacto {
+  background-image: url(../assets/img/fondogranja.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+  .main-contacto form {
+    background-color: rgba(0, 0, 0, 0.3); }
+    .main-contacto form label {
+      color: #efa229; }

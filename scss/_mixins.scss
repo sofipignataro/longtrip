@@ -18,11 +18,12 @@ h1 { @include h1Style ($colorTextSecundary, 2.5rem,Raleway)}
 
 	font-family: Raleway;
 	text-decoration: none;
-	text-transform: uppercase;
 	text-align: center;
 	color: $color;
 	font-size: $fSize;
-	text-transform: $tTransform;
+	text-transform: $tTransform;}
 
-}
 
+// mixin sin parametro para h1 y header
+
+@mixin bgH1 {background-color: $bgPrimary;height: 10rem; padding-top: 5rem;}

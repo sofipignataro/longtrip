@@ -13,8 +13,7 @@ footer {@extend header;
 				&:hover {color: $colorTextPrimary} } 
 
 		a {@include fontStyle ($colorTextPrimary, .9rem, none)}
-
-
-		small {color: $colorTextBlack;}		
-			}
+		small {color: $colorTextPrimary;}
+}
+  
 
