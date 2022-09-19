@@ -11,7 +11,7 @@
 }
 
 // estilo de todos los h1 del sitio
-h1 { @include h1Style ($colorTextSecundary, 2.5rem,Raleway)}
+h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 
 // mixin para los estilos de fuente de todo el sitio 
 @mixin fontStyle ($color,$fSize, $tTransform) {
