@@ -27,3 +27,17 @@ h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 // mixin sin parametro para h1 y header
 
 @mixin bgH1 {background-color: $bgPrimary;height: 10rem; padding-top: 5rem;}
+
+// mixin para contacto 
+
+@mixin flexColumnCenter {
+	display: flex;
+	flex-flow: wrap column;
+	justify-content: center;
+}
+
+@mixin flexRowCenter {
+	display: flex;
+	flex-flow: wrap row;
+	justify-content: center;
+}

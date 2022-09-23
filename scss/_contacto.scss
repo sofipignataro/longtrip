@@ -11,3 +11,16 @@
 }
 
 .contacto {margin: 0px; padding: 0px;}
+
+.header { @include flexColumnCenter; padding: 0px 12px; height: 127px;
+			a { width: 116px; height: 91px;}
+
+			img {margin: 0px 16px 0px 0px }
+			ul {@include flexRowCenter; padding: 0px; margin: 0px;}
+			li {list-style: none}
+				 a {@include fontStyle ($colorTextPrimary, 1rem,uppercase);  padding: 4px 8px 8px ; margin: 0px 0px 0px 8px;
+				&:hover { color:$colorTextSecundary; font-weight:bold;}}}
+
+.footer { display: flex; flex-flow: wrap column; justify-content: space-around; padding: 1.5rem;
+
+		.footerContainer {display: flex; flex-flow: wrap row; justify-content: space-evenly;}}
