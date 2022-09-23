@@ -21,6 +21,7 @@
 				 a {@include fontStyle ($colorTextPrimary, 1rem,uppercase);  padding: 4px 8px 8px ; margin: 0px 0px 0px 8px;
 				&:hover { color:$colorTextSecundary; font-weight:bold;}}}
 
+
 .footer { display: flex; flex-flow: wrap column; justify-content: space-around; padding: 1.5rem;
 
 		.footerContainer {display: flex; flex-flow: wrap row; justify-content: space-evenly;}}

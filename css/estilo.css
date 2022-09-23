@@ -125,6 +125,7 @@ footer small {
   display: flex;
   flex-flow: wrap column;
   justify-content: center;
+  align-items: center;
   padding: 0px 12px;
   height: 127px; }
   .header a {
