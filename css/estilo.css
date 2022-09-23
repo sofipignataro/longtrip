@@ -173,9 +173,10 @@ footer small {
 
 .form {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: wrap column;
+  justify-content: center;
   align-items: center;
-  text-align: center; }
+  text-align: right; }
 
 .section {
   display: flex;

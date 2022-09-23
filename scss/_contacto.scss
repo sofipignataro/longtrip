@@ -27,7 +27,7 @@
 		.footerContainer {display: flex; flex-flow: wrap row; justify-content: space-evenly;}}
 
 
-.form {@include flexColumnCenter }
+.form {display: flex;flex-flow: wrap column; justify-content: center;align-items: center; text-align: right;}
 
 .section {@include flexColumnCenter; width: 100%;height: auto;background-color: $bgSecundaryLight;
 
