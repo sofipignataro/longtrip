@@ -2,6 +2,7 @@
 $bgPrimary: rgb(26, 77, 46);
 $bgSecundary:  #efa229; 
 $bgSecundaryLight: #f3b24a ; 
+$bgOpacity: rgba(0,0, 0, .3);
 
 // VARIABLES PARA COLOR DE LETRA
 $colorTextPrimary:   #f3f3f3 ;
@@ -10,5 +11,8 @@ $colorTextBlack:  #333333;
 
 // VARIABLES TAMAÑO DE LETRA
 $fSizeIndex: 65px; 
+
+// variable padding
+$p0: 0px;
 
 

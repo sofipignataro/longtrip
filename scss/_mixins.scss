@@ -28,17 +28,17 @@ h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 
 @mixin bgH1 {background-color: $bgPrimary;height: 10rem; padding-top: 5rem;}
 
-// mixin para contacto 
+// mixin para pagina con grids
 
 @mixin flexColumnCenter {
 	display: flex;
-	flex-flow: wrap column;
-	justify-content: center;
+	flex-flow: column wrap;
 	align-items: center;
+	text-align: center;
 }
 
-@mixin flexRowCenter {
-	display: flex;
-	flex-flow: wrap row;
+@mixin flexRowCenter { display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
-}
+	align-items: center;
+	text-align: center;}
