@@ -18,7 +18,6 @@ h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 
 	font-family: Raleway;
 	text-decoration: none;
-	text-align: center;
 	color: $color;
 	font-size: $fSize;
 	text-transform: $tTransform;}
@@ -33,6 +32,7 @@ h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 @mixin flexColumnCenter {
 	display: flex;
 	flex-flow: column wrap;
+	justify-content: center;
 	align-items: center;
 	text-align: center;
 }
