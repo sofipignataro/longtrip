@@ -183,12 +183,38 @@ footer small {
     .main button:hover {
       background-color: #f3b24a;
       color: #f3f3f3; }
-  .main .footer {
+
+section {
+  background-color: #efa229;
+  padding-bottom: 3rem; }
+  section h2 {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #f3f3f3;
+    font-size: 2rem;
+    font-family: Raleway;
+    margin: 0;
+    padding: 40px; }
+  section .ubicacionContainer {
     display: flex;
-    flex-flow: wrap column;
-    justify-content: space-around;
-    padding: 1.5rem; }
-    .main .footer .footerContainer {
-      display: flex;
-      flex-flow: wrap row;
-      justify-content: space-evenly; }
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+    background-color: rgba(0, 0, 0, 0.4); }
+  section p {
+    font-family: Raleway;
+    text-decoration: none;
+    color: #f3f3f3;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin: auto; }
+
+.footer {
+  display: flex;
+  flex-flow: wrap column;
+  justify-content: space-around;
+  height: 161px; }
