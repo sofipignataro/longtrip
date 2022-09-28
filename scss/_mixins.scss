@@ -1,5 +1,4 @@
 // mixin para los h1
-
 @mixin h1Style ($color, $fSize, $fFamily) {
 	text-decoration: none;
 	text-transform: uppercase;
@@ -7,15 +6,13 @@
 	letter-spacing: 1px;
 	color: $color;
 	font-size: $fSize;
-	font-family: $fFamily;
-}
+	font-family: $fFamily;}
 
 // estilo de todos los h1 del sitio
-h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
+// h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 
 // mixin para los estilos de fuente de todo el sitio 
 @mixin fontStyle ($color,$fSize, $tTransform) {
-
 	font-family: Raleway;
 	text-decoration: none;
 	color: $color;
@@ -23,9 +20,6 @@ h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 	text-transform: $tTransform;}
 
 
-// mixin sin parametro para h1 y header
-
-@mixin bgH1 {background-color: $bgPrimary;height: 10rem; padding-top: 5rem;}
 
 // mixin hover rrss
 @mixin rrss ($color, $borderColor,$size) {
@@ -35,8 +29,13 @@ h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 	font-size:$size;
 }
 
-// mixin para pagina con grids
 
+	// mixin sin parametro para h1 y header
+@mixin bgH1 {background-color: $bgPrimary;height: 10rem; padding-top: 5rem;}
+
+
+
+// MIXIN PARA PAGINA CON FLEX-BOX
 @mixin flexColumnCenter ($justify) {
 	display: flex;
 	flex-flow: column wrap;
@@ -50,3 +49,4 @@ h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 	justify-content: center;
 	align-items: center;
 	text-align: center;}
+

@@ -6,11 +6,10 @@
     transform: scale(1.2); 
 }
 
-.bg-galeria {   background: { image:url(../assets/img/fondogranja.png) ;
-                repeat: no-repeat;
-                size: cover;
-                attachment: fixed ;
-             }
+.bg-galeria {  background-color: $bgSecundaryLight;
+
+        h1 {@include h1Style ($bgPrimary, 2rem,Raleway); }
+        h2 {@include fontStyle ($colorTextBlack,1.5rem,none);}
+        section {background-color: $bgOpacity;}}
             
-        }        
-.bg-galeria-oscuro {background-color: rgba(0,0, 0, .4);}   
+        

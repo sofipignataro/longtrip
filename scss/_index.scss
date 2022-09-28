@@ -1,6 +1,7 @@
 $vista: mobile;
  // ESTILOS INDEX
-.bodyIndex {
+.bodyIndex {header {height: 127px;}
+
 
 		h1, h3 { @include h1Style ($colorTextPrimary,$fSizeIndex,Amatic SC)}
 
@@ -18,7 +19,8 @@ $vista: mobile;
 		}
 
 @if $vista == mobile {
-	@media only screen and (max-width: 600px) {
+	@media only screen and (max-width: 600px) { 
+		header {height: auto;}
 	    h1,h3 {font-size: $fSizeIndex/2;}
 	   	section { h2 {font-size: 1rem;}}
 	   	.btn {display: none;}

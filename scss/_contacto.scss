@@ -3,12 +3,12 @@
 // variable mobile
 
 $vista:mobile;
-
-.header { padding: 0 12px; height: 127px; }
+.contacto {
+.header { padding: 0 12px; height: auto; }
 	nav {@include flexColumnCenter(none); 
 			a {width: 116px; height: 91px;}
 			img {margin-right: 1rem}
-			ul {@include flexRowCenter;}
+			ul {@include flexRowCenter; padding-bottom: .5rem;}
 			li {list-style: none}
 				a {@include fontStyle ($colorTextPrimary, 1rem,uppercase);  padding: 4px 8px 8px ; margin-left: 8px;
 								&:hover { color:$colorTextSecundary; font-weight:bold;}}}
@@ -16,11 +16,9 @@ $vista:mobile;
 .main{ background: { image:url(../assets/img/otoño-naturaleza.jpg) ;
 					repeat: no-repeat;
 					size: cover;
-					attachment: fixed ; 
-					}
-				
+					attachment: fixed;}	
 				form { background-color: $bgOpacity; max-width: 50%; margin: auto; padding: 3rem; @include flexColumnCenter(center);}
-				h1 {padding-bottom: 2rem;}
+				h1 {padding-bottom: 2rem; @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 			 	label {@include fontStyle ($colorTextSecundary, 1rem, capitalize); text-align: initial;  width: 100%; }
 			 		input, #mensaje {  width:100%; padding: 0px; margin: 1rem 0; height: 2rem; }
 			 			button {background: none; @include fontStyle ($colorTextSecundary, 1rem, uppercase);   
@@ -29,31 +27,26 @@ $vista:mobile;
 
 section { background-color: $bgSecundary; padding-bottom: 3rem;
 			h2 {@include h1Style ($colorTextPrimary, 2rem,Raleway); margin: 0; padding: 40px;}
-
 			.ubicacionContainer {@include flexRowCenter; padding: 3rem; background-color: $bgOpacity;}
-
 						p { @include fontStyle ($colorTextPrimary, 1.1rem, uppercase); margin: auto;}}
 
 
 .footer { @include flexColumnCenter(center);  @include fontStyle ($colorTextPrimary, 1rem,uppercase)	
 		 .footerContainer {display: flex; flex-flow: wrap row; justify-content: space-evenly; width: 100%;}
+		 h4 {padding: 1rem 0;}
 				.rrss {display: flex; flex-flow: nowrap row; justify-content: space-evenly;}
-							.copy{align-self: end; 
-							h6{ @include fontStyle ($colorTextPrimary, .8rem, none); margin:0 0 1rem;}}}
+				.copy{align-self: end; 
+					h6{ @include fontStyle ($colorTextPrimary, .8rem, none); margin:0 0 1rem;}}}}
 
  @if $vista == mobile {
  	@media only screen and (max-width: 600px) { 
- 		.header {; height: auto;
+ 		.header { height: auto;
  			nav { align-items: flex-start; 
  				ul {display: flex; flex-flow: column wrap; align-items: flex-start; align-content: flex-start;
  					li {margin-bottom: 1rem;}}}}
  		.main { form { max-width: 100%;}}
  		.footer { .footerContainer {@include flexColumnCenter(center) }
- 			.copy{ margin: auto; margin-top: 3rem;}}
- 		
-
-
- 		}}
+ 			.copy{ margin: auto; margin-top: 3rem;}}}}
 
 
 

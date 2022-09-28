@@ -1,16 +1,11 @@
 // ESTILO HEADER Y FOOTER
 
 header { background-color: $bgPrimary ;
-
         .nav-link { @include fontStyle ( $colorTextPrimary, 1rem,uppercase)
-
-        	&:hover { color:$colorTextSecundary; font-weight:bold;}}
-        		}
-
-
+        	&:hover { color:$colorTextSecundary; font-weight:bold;}}}
 
 footer { @extend header; 
-		h6 { @include fontStyle ($colorTextPrimary, 1rem,uppercase)}
+		h6 { @include fontStyle ($colorTextPrimary, 1rem,uppercase); padding: 1rem 0;}
 		p,a{ @include fontStyle ($colorTextPrimary, .9rem, none);
 			&:hover {color:$colorTextSecundary}}
 		.geo {&:hover {color:$colorTextSecundary}}
