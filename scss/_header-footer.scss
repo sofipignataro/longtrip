@@ -7,13 +7,19 @@ header { background-color: $bgPrimary ;
         	&:hover { color:$colorTextSecundary; font-weight:bold;}}
         		}
 
-footer {@extend header; 
 
-		h6 { @extend .nav-link;
-				&:hover {color: $colorTextPrimary} } 
 
-		a {@include fontStyle ($colorTextPrimary, .9rem, none)}
-		small {color: $colorTextPrimary;}
-}
-  
+footer { @extend header; 
+		h6 { @include fontStyle ($colorTextPrimary, 1rem,uppercase)}
+		p,a{ @include fontStyle ($colorTextPrimary, .9rem, none);
+			&:hover {color:$colorTextSecundary}}
+		.geo {&:hover {color:$colorTextSecundary}}
+		.bi-whatsapp, .whatsapp {
+			&:hover {color: $wpp; font-size: 1rem}}
+		.bi-envelope-fill, .mail { &:hover {color: $gmail; font-size: 1rem}}
 
+		.bi-instagram {@include rrss($colorTextPrimary,$colorTextPrimary, 1.3rem)
+			&:hover {@include rrss($insta,$insta, 1.5rem)}}
+		.bi-facebook {@include rrss($colorTextPrimary,$colorTextPrimary, 1.3rem);
+			&:hover {@include rrss($fb,$fb, 1.5rem)}
+		}} 

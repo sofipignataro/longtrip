@@ -27,12 +27,20 @@ h1 { @include h1Style ($colorTextSecundary, 2rem,Raleway)}
 
 @mixin bgH1 {background-color: $bgPrimary;height: 10rem; padding-top: 5rem;}
 
+// mixin hover rrss
+@mixin rrss ($color, $borderColor,$size) {
+	color:$color; 
+	padding: .4rem; 
+	border: solid $borderColor 2px; 
+	font-size:$size;
+}
+
 // mixin para pagina con grids
 
-@mixin flexColumnCenter {
+@mixin flexColumnCenter ($justify) {
 	display: flex;
 	flex-flow: column wrap;
-	justify-content: center;
+	justify-content: $justify;
 	align-items: center;
 	text-align: center;
 }

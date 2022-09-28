@@ -18,7 +18,7 @@ $vista: mobile;
 		}
 
 @if $vista == mobile {
-	@media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 600px) {
 	    h1,h3 {font-size: $fSizeIndex/2;}
 	   	section { h2 {font-size: 1rem;}}
 	   	.btn {display: none;}
