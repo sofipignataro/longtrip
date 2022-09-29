@@ -1,13 +1,11 @@
-
-
-
-
-.bodyNosotros {
-	.title {@include bgH1;}
-	 main { p {@include fontStyle ($colorTextBlack,1.2rem, none); }
-
-	 		 }
-
-
-}
+.bodyNosotros { 
+		 h1 {@include h1Style ($bgPrimary, 2rem,Raleway)}
+		 main {p {@include fontStyle ($colorTextBlack,1.2rem, none)}}
+		 section { background-color: $bgSecundaryLight; padding: 1rem 0; height: auto;}
+		 			img { transition: transform .2s; 
+           			     &:hover {transform: scale(1.1)}}
+		 			.carousel-item{background-color: $bgOpacity;  padding: 1.5rem 0; height: auto}
+		 			h2{ @include h1Style ($colorTextPrimary, 2rem,Raleway); padding-bottom: 1rem; margin: 0}
+		 			h3 {@include h1Style ($colorTextPrimary, 1rem,Raleway);}
+		 			p {@include fontStyle ($colorTextPrimary, 1rem, none);}}
 

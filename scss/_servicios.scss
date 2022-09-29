@@ -1,0 +1,4 @@
+.bodyServicios {  background-color: $bgSecundaryLight; 
+					h1 {@include h1Style ($bgPrimary, 2rem,Raleway)}
+					h3 {@include fontStyle($bgPrimary,1.5rem, uppercase); font-weight: 600;}
+					li{ @include fontStyle($colorTextBlack,1rem, capitalize); list-style: none;}}

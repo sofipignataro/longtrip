@@ -3,6 +3,7 @@
 // variable mobile
 
 $vista:mobile;
+
 .contacto {
 .header { padding: 0 12px; height: auto; }
 	nav {@include flexColumnCenter(none); 
@@ -46,7 +47,8 @@ section { background-color: $bgSecundary; padding-bottom: 3rem;
  					li {margin-bottom: 1rem;}}}}
  		.main { form { max-width: 100%;}}
  		.footer { .footerContainer {@include flexColumnCenter(center) }
- 			.copy{ margin: auto; margin-top: 3rem;}}}}
+ 			.copy{ margin: auto; margin-top: 3rem;}
+ 				.btn{display: none}}}}
 
 
 

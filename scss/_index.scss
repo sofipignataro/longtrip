@@ -1,31 +1,17 @@
-$vista: mobile;
- // ESTILOS INDEX
-.bodyIndex {header {height: 127px;}
+// ESTILOS INDEX
+.bodyIndex {  background-color: $bgSecundaryLight ;
 
-
-		h1, h3 { @include h1Style ($colorTextPrimary,$fSizeIndex,Amatic SC)}
-
-		#carouselExampleFade {img {filter:brightness(.7)}} 
-
-		.btn { &:hover { background-color: $bgSecundaryLight; color: $colorTextPrimary}}
-
-		section {background-color: $bgSecundaryLight; 
-				h2 { @include fontStyle ($colorTextBlack, 1.5rem, none)}
-
-		.card { max-width:250px; transition: 2s;
-
-            img {filter:brightness(.6);}}
-		
-		}
-
-@if $vista == mobile {
-	@media only screen and (max-width: 600px) { 
-		header {height: auto;}
-	    h1,h3 {font-size: $fSizeIndex/2;}
-	   	section { h2 {font-size: 1rem;}}
-	   	.btn {display: none;}
-
+	h1,h3 {@include h1Style ($colorTextPrimary,$fSizeIndex,Amatic SC);}
+	#carouselExampleFade {img {filter:brightness(.7)}}
+	.btn { &:hover { background-color: $bgSecundaryLight; color: $colorTextPrimary}}
+	.card { max-width:250px;  img {filter:brightness(.6);}}
 	}
-	
-}
-}
+
+ $vista:mobile;
+
+  @if $vista == mobile {
+ 	@media only screen and (max-width: 600px) { 
+ 		.bodyIndex {
+ 		h1,h3 {font-size: $fSizeIndex/2;}}
+ 		h2 {font-size: .5rem;}
+ 		.btn1 {display: none;}}}

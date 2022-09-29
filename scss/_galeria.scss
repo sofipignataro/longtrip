@@ -1,15 +1,8 @@
-.zoom {
-    transition: transform .2s; 
-}
- 
-.zoom:hover {
-    transform: scale(1.2); 
-}
-
 .bg-galeria {  background-color: $bgSecundaryLight;
-
         h1 {@include h1Style ($bgPrimary, 2rem,Raleway); }
         h2 {@include fontStyle ($colorTextBlack,1.5rem,none);}
-        section {background-color: $bgOpacity;}}
+        section {background-color: $bgOpacity;}
+        img {transition: transform .2s; 
+            &:hover {transform: scale(1.2)}}}
             
         
