@@ -8,10 +8,6 @@ footer { @extend header;
 		h6 { @include fontStyle ($colorTextPrimary, 1rem,uppercase); padding: 1rem 0;}
 		p,a{ @include fontStyle ($colorTextPrimary, .9rem, none);
 			&:hover {color:$colorTextSecundary}}
-		.geo {&:hover {color:$colorTextSecundary}}
-		.bi-whatsapp, .whatsapp {
-			&:hover {color: $wpp; font-size: 1rem}}
-		.bi-envelope-fill, .mail { &:hover {color: $gmail; font-size: 1rem}}
 
 		.bi-instagram {@include rrss($colorTextPrimary,$colorTextPrimary, 1.3rem)
 			&:hover {@include rrss($insta,$insta, 1.5rem)}}
